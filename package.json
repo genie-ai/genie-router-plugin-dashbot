@@ -1,0 +1,33 @@
+{
+  "name": "genie-router-plugin-dashbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matueranet/genie-router-plugin-dashbot.git"
+  },
+  "keywords": [
+    "genie-router",
+    "dashbot",
+    "plugin"
+  ],
+  "author": "matueranet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matueranet/genie-router-plugin-dashbot/issues"
+  },
+  "homepage": "https://github.com/matueranet/genie-router-plugin-dashbot#readme",
+  "genieRouterPlugin": {
+    "name": "dashbot"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "dashbot": "^9.2.0"
+  }
+}
