@@ -1,31 +1,37 @@
 {
-  "name": "genie-router-plugin-dashbot",
-  "version": "2.0.0",
-  "description": "",
+  "name": "@genie-ai/genie-router-plugin-dashbot",
+  "version": "3.0.0",
+  "description": "genie-router plugin that logs messages to dashbot.io.",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matueranet/genie-router-plugin-dashbot.git"
+    "url": "git+https://github.com/genie-ai/genie-router-plugin-dashbot.git"
   },
   "keywords": [
     "genie-router",
     "dashbot",
     "plugin"
   ],
+  "engines": {
+    "node": ">=8.10"
+  },
   "author": "matueranet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matueranet/genie-router-plugin-dashbot/issues"
+    "url": "https://github.com/genie-ai/genie-router-plugin-dashbot/issues"
   },
-  "homepage": "https://github.com/matueranet/genie-router-plugin-dashbot#readme",
+  "homepage": "https://github.com/genie-ai/genie-router-plugin-dashbot#readme",
   "genieRouterPlugin": {
-    "name": "dashbot"
+    "name": "dashbot",
+    "apiVersion": "1.0.0"
   },
   "devDependencies": {
-    "standard": "^10.0.3"
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.9.0"
   },
   "dependencies": {
     "dashbot": "^9.2.0"
